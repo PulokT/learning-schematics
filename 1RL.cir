@@ -1,0 +1,22 @@
+* C:\Users\User\Desktop\New folder (2)\PSpice Solution for assignment 2  RL circuits only\RLRC updated\1RL.sch
+
+* Schematics Version 9.2
+* Mon Oct 14 23:41:06 2019
+
+
+
+** Analysis setup **
+.tran 0ns 15us 0ms .1us
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "1RL.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

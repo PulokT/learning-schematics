@@ -1,0 +1,11 @@
+* Schematics Netlist *
+
+
+
+X_U1         $N_0001 $N_0002 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R1         $N_0002 a  4.68k  
+R_R2         0 b  14.45k  
+L_L1         a b  212.5mH IC=4mH 
+V_V2         $N_0001 0  
++PULSE 16 0 0 .1ns .1ns 22us 44us
